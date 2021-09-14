@@ -3,6 +3,11 @@ let notas = [];
 function somaNotas() {
   // @ts-ignore
   let strNumber = document.getElementById("notaDigitada").value;
+
+  if(strNumber === ""){
+    return;
+  }
+  
   let number = Number(strNumber).toFixed(2);
 
   notas.push(number);
