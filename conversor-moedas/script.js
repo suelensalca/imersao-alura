@@ -42,3 +42,7 @@ function ConverterBitcoin() {
   )}`;
   elementoValorConvertido.innerHTML = valorConvertido;
 }
+
+function clearField(input) {
+  input.value = "";
+}

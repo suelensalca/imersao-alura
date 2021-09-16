@@ -28,6 +28,13 @@ div {
   width: 180px;
 }
 
+.home {
+  width: 30px;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
 .alura-logo {
   width: 30px;
   position: absolute;

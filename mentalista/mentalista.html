@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="style.css" />
+    <script type="text/javascript" src="script.js" defer></script>
+
+    <title>Imersão Dev Alura - Aula 03</title>
+  </head>
+  <body>
+    <header>
+    <div>
+        <h1>Mentalista</h1>
+        <p>Descubra o número secreto!</p>
+        <img
+            src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg"
+            class="page-logo"
+            alt="logo-imersao"
+        />
+    </div>
+    <a href="https://alura.com.br/" target="_blank">
+      <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="logo" class="alura-logo">
+    </a>
+    <a href="../index.html" target="_self">
+      <img src="../home.png" alt="home" class="home">
+    </a>
+    </header>
+    <div>
+        <p>
+            1. Digite um número de 0 a 50.<br>2. Clique Chutar para descobrir se acertou o número!
+        </p>
+        <input type="number" placeholder="Digite aqui" id="valor" onfocus="clearField(this)"/><br>
+        <button type="submit" onclick="Chutar()">Chutar</button>
+        <h2 id="resultado"></h2>
+    </div>
+    <footer>
+        <img src="brain.png" alt="brain" class="brain-pic" />
+    </footer>
+</html>

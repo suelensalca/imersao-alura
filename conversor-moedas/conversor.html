@@ -26,6 +26,9 @@
           class="alura-logo"
         />
       </a>
+      <a href="../index.html" target="_self">
+        <img src="../home.png" alt="home" class="home" />
+      </a>
     </header>
     <div>
       <p>1. Digite o valor.<br />2.Clique na moeda para converter para Real.</p>
@@ -33,7 +36,7 @@
         type="number"
         placeholder="Digite o valor aqui"
         id="valor"
-        size="2"
+        onfocus="clearField(this)"
       /><br />
       <button type="submit" onclick="ConverterDolar()">Dolar</button>
       <button type="submit" onclick="ConverterEuro()">Euro</button>
