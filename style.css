@@ -35,45 +35,20 @@ div {
   right: 20px;
 }
 
-input {
-  min-width: 200px;
-  width: 30%;
-  padding: 12px 20px;
-  display: inline-block;
-  border: 1px solid #ffffff;
-  border-radius: 4px;
+nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-input:focus-visible {
-  outline: none;
-  border: 1px solid #ff5964;
-}
-
-button {
+nav a {
+  width: 50%;
+  margin: 10px;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
   background-color: #ff5964;
-  color: white;
-  font-size: medium;
-  font-weight: bold;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-.resultado p {
-  margin: 5px;
-}
-
-#notasSoma {
-  color: #057987;
-  font-size: medium;
-  font-weight: bold;
-}
-
-#notasMedia {
-  color: #057987;
-  font-size: x-large;
-  font-weight: bold;
 }
 
 footer {
@@ -84,6 +59,6 @@ footer {
   margin-top: auto;
 }
 
-.grade-pic {
+.helmet-pic {
   width: 190px;
 }

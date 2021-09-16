@@ -13,19 +13,17 @@
   <body>
     <header>
     <div>
-    <h1 >Calculadora de média</h1>
-    <p>
-        Descubra qual a sua média de nota de todas as provas!
-    </p>
+    <h1>Calculadora de média</h1>
+    <p>Descubra qual a sua média de nota de todas as provas!</p>
     <img
         src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg"
         class="page-logo"
-        alt=""
+        alt="logo-imersao"
     />
     </div>
     <a href="https://alura.com.br/" target="_blank">
-        <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
-        </a>
+      <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="logo" class="alura-logo">
+    </a>
     </header>
     <div>
       <p>
@@ -40,12 +38,17 @@
       />
       <br><small style="padding: none;" >Digite somente números</small>
     </div>
-    <button type="button" onclick="somaNotas()">+</button>
-    <button type="button" onclick="mediaNotas()">Média</button>
-    <button type="button" onclick="resetMedia()">Reset</button>
+    <div>
+      <button type="button" onclick="somaNotas()">+</button>
+      <button type="button" onclick="mediaNotas()">Média</button>
+      <button type="button" onclick="resetMedia()">Reset</button>
+    </div>
     <div class="resultado">
       <p>Essas são suas notas: <p id="notasSoma"></p></p>
       <p>Essa é sua média: <p id="notasMedia"></p> </p>
     </div>
+    <footer>
+      <img src="https://image.flaticon.com/icons/png/512/201/201635.png" alt="gradeA" class="grade-pic" />
+    </footer>
   </body>
 </html>

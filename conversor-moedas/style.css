@@ -55,22 +55,13 @@ button {
   font-size: medium;
   font-weight: bold;
   padding: 10px 20px;
+  margin: 15px;
   border: none;
   border-radius: 4px;
   cursor: pointer;
 }
 
-.resultado p {
-  margin: 5px;
-}
-
-#notasSoma {
-  color: #057987;
-  font-size: medium;
-  font-weight: bold;
-}
-
-#notasMedia {
+#valorConvertido {
   color: #057987;
   font-size: x-large;
   font-weight: bold;
@@ -84,6 +75,6 @@ footer {
   margin-top: auto;
 }
 
-.grade-pic {
-  width: 190px;
+.money-pic {
+  width: 180px;
 }
