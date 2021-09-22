@@ -4,42 +4,46 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <link rel="stylesheet" href="style.css" />
-    <title>Imersão Dev</title>
+    <script type="text/javascript" src="script.js" defer></script>
+
+    <title>Imersão Dev Alura - Aulas 04 e 05</title>
   </head>
   <body>
     <header>
       <div>
-        <h1>Imersão Dev</h1>
-        <p>
-          Projeto criado durante a Imersão Dev da Alura: 10 dias de muito estudo
-          e conteúdo para mergulhar no universo da programação!
-        </p>
+        <h1>Aluraflix</h1>
+        <p>Faça uma lista com seus filmes preferidos!</p>
         <img
           src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg"
           class="page-logo"
-          alt=""
+          alt="logo-imersao"
         />
       </div>
       <a href="https://alura.com.br/" target="_blank">
         <img
           src="https://www.alura.com.br/assets/img/home/alura-logo.svg"
-          alt=""
+          alt="logo"
           class="alura-logo"
         />
       </a>
-      <a href="index.html" target="_self">
-        <img src="home.png" alt="home" class="home" />
+      <a href="../index.html" target="_self">
+        <img src="../home.png" alt="home" class="home" />
       </a>
     </header>
-    <nav>
-      <a href="calculadora-media/calculadora.html">Calculadora de Média</a>
-      <a href="conversor-moedas/conversor.html">Conversor de Moedas</a>
-      <a href="mentalista/mentalista.html">Mentalista</a>
-      <a href="aluraflix/aluraflix.html">Aluraflix</a>
-    </nav>
+    <div>
+      <input
+        type="text"
+        id="filme"
+        name="filme"
+        placeholder="Insira endereço de imagem"
+      />
+      <button type="button" onclick="adicionarFilme()">Adicionar Filme</button>
+    </div>
+    <div id="listaFilmes"></div>
     <footer>
-      <img src="helmet.png" alt="helmet" class="helmet-pic" />
+      <img src="movie.png" alt="movie" class="movie-pic" />
     </footer>
   </body>
 </html>
