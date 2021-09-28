@@ -1,0 +1,110 @@
+html {
+  background-color: #fbb524;
+}
+
+header {
+  display: block;
+  background-color: #057987;
+  text-align: center;
+  font-family: "Roboto Mono", monospace;
+  color: #ffffff;
+  margin: 10px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  font-family: "Roboto Mono", monospace;
+  height: 100vh;
+  text-align: center;
+  margin: 0;
+}
+
+div {
+  padding: 15px;
+}
+
+.page-logo {
+  width: 180px;
+}
+
+.home {
+  width: 30px;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.alura-logo {
+  width: 30px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+input {
+  min-width: 200px;
+  width: 30%;
+  padding: 12px 20px;
+  display: inline-block;
+  border: 1px solid #ffffff;
+  border-radius: 4px;
+}
+
+input:focus-visible {
+  outline: none;
+  border: 1px solid #ff5964;
+}
+
+.botao {
+  background-color: #ff5964;
+  color: white;
+  font-size: medium;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.tabelas {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+table,
+th {
+  border: 2px solid;
+  border-collapse: collapse;
+  padding: 5px;
+}
+
+tr,
+td {
+  border: solid 1px;
+}
+
+button {
+  background-color: #057987;
+  color: white;
+  font-size: medium;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+footer {
+  clear: both;
+  position: relative;
+  width: 100%;
+  min-height: 200px;
+  margin-top: auto;
+}
+
+.trophy-pic {
+  width: 180px;
+}
