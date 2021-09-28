@@ -76,14 +76,13 @@ input:focus-visible {
 
 table,
 th {
+  min-width: 180px;
+  max-width: 260px;
+  font-size: large;
   border: 2px solid;
   border-collapse: collapse;
   padding: 5px;
-}
-
-tr,
-td {
-  border: solid 1px;
+  word-wrap: break-word;
 }
 
 button {
