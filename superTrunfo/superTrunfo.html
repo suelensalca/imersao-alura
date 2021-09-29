@@ -33,31 +33,31 @@
       </a>
     </header>
     <div>
-      <button onclick="sortearCarta()" id="sortear">Sortear Carta</button>
+      <button onclick="sortear()" id="sortear">Sortear Carta</button>
+      <button type="button" id="jogar" onclick="jogar()" disabled="false">
+        Jogar
+      </button>
       <form id="form">
         <div class="wrapper">
           <div id="carta-jogador">
             <img
-              src="card.png"
+              src="img/card.png"
               style="width: inherit; height: inherit; position: absolute"
             />
             <h3></h3>
           </div>
           <div id="carta-maquina" class="carta">
             <img
-              src="card.png"
+              src="img/card.png"
               style="width: inherit; height: inherit; position: absolute"
             />
           </div>
         </div>
         <div id="resultado"></div>
       </form>
-      <button type="button" id="jogar" onclick="jogar()" disabled="false">
-        Jogar
-      </button>
     </div>
     <footer>
-      <img src="cards.png" alt="card" class="card-pic" />
+      <img src="img/cards.png" alt="card" class="card-pic" />
     </footer>
   </body>
 </html>
